@@ -4,6 +4,7 @@ import (
 	"context"
 	"github.com/rodbalbino/grpc_tutorial/proto"
 	"net"
+	"fmt"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
@@ -15,6 +16,7 @@ func main(){
 	if err != nil {
 		panic(err)
 	}
+	fmt.Printf("\033[1;36m%s\033[0m", "\nServer UP http://localhost:4040")
 
 	srv := grpc.NewServer()
 	proto.RegisterAddServiceServer(srv, &server{})

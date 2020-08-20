@@ -8,8 +8,12 @@ Run `go run main.go` into the server folder
 
 Run `go run main.go` into the client folder
 
-
 ## See the beauty
 Open [localhost/add/80/60](http://localhost:8080/add/80/60)
 
 Open [localhost/mult/80/60](http://localhost:8080/add/80/60)
+
+## Load Test with [VEGETA](https://github.com/tsenart/vegeta)
+
+![Screenshot](vegeta.png)
+![Screenshot](vegeta-plot.png)
