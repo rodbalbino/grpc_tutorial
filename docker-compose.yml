@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  grpccalc:
+    image: grpccalc
+    build: .
+    ports:
+      - 4040

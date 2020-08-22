@@ -17,3 +17,5 @@ Open [localhost/mult/80/60](http://localhost:8080/add/80/60)
 
 ![Screenshot](vegeta.png)
 ![Screenshot](vegeta-plot.png)
+
+<!-- protoc --proto_path=proto --proto_path=/home/balbino/work/src/google.golang.org --go_out=plugins=grpc:proto service.proto -->
