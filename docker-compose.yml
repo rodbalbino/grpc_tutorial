@@ -1,8 +1,8 @@
-version: '3.4'
+version: '3'
 
 services:
   grpccalc:
-    image: grpccalc
+    image: balbino/grpccalc
     build: .
     ports:
       - 4040
